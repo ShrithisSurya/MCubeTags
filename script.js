@@ -1,0 +1,8 @@
+import './src/tooltip.js'
+import './src/mci-toggle.js'
+import './src/mci-alert.js'
+import './src/mci-badge.js'
+import './src/mci-clock.js'
+import './src/mci-help-text.js'
+import './src/mci-toast.js'
+import './src/mci-rating-tag.js'

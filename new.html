@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Tag -5 MCI-Badge</h1>
+    <mci-badge value="secondary" text-color="white" border-radius="30px" set-position="top-center" bg-color="black"
+        width="300px" status="info"></mci-badge>
+
+    <h1>Tag-6 MCI-Notification Toast</h1>
+    <mci-notification-toast value="This is a notification!" bg-color="blue" text-color="white"
+        set-position="bottom-right" duration="3000"></mci-notification-toast>
+
+    <mci-notification-toast id="myToast" value="First Notification!" bg-color="blue" text-color="white"
+        set-position="top-left" duration="3000"></mci-notification-toast>
+
+    <mci-notification-toast id="toast" value="Second Notification!" bg-color="green" text-color="white"
+        set-position="bottom-left" duration="3000"></mci-notification-toast>
+
+    <h1>Tag-7 Mci Rating</h1>
+    <mci-rating rating="3.5" max="5" status="dark" width="400px" height="80px" padding="20px" border="1px solid black"
+        border-radius="40px"></mci-rating>
+
+
+
+    <h1>Tag-8 Mci-Tooltip</h1>
+    <button id="myBtn">Submit Now</button>
+    <mci-tool-tip for="myBtn" value="Click The Button" font-size="10px" tooltip-direction="right" bg-color="black"
+        text-color="white" padding="10px" width="200px" border-radius="40px"></mci-tool-tip>
+
+
+    <script src="./script.js" type="module"></script>
+    <!-- <script>
+        const badge = document.querySelector("mci-badge")
+    //     setTimeout(() => {
+    //         badge.disable();
+    //     }, 500);
+    // </script> -->
+
+</body>
+
+</html>

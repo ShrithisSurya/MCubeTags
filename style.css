@@ -1,0 +1,11 @@
+#myBtn{
+    margin: 10px;
+    padding: 10px;
+    background-color:#EE82EE;
+    color: white;
+    width: 200px;
+    border-radius: 30px;
+    display: block;
+    border: none;
+
+}

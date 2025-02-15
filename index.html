@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <h1>Tag-1 Mci ToggleButton</h1>
+    <mci-toggle-button bg-color="black" width="80px" height="40px"></mci-toggle-button>
+
+
+    <h1>Tag-2 Mci Alert</h1>
+    <!-- Success -->
+    <mci-alert value="Login Successfully" status="success" width="300px" height="50px" padding="10px"
+        border-radius="30px"></mci-alert>
+    <!-- Danger -->
+    <mci-alert value="A simple danger alert—check it out!" status="danger" width="300px" height="50px" padding="10px"
+        border-radius="30px"></mci-alert>
+    <!-- Primary -->
+    <mci-alert id="myAlert" value="A simple primary alert—check it out!" status="primary" width="300px" height="50px"
+        padding="10px" border-radius="30px"></mci-alert>
+    <!-- Secondary -->
+    <mci-alert value="A simple Secondary alert—check it out!" status="secondary" width="300px" height="50px"
+        padding="10px" border-radius="30px"></mci-alert>
+    <!-- Warning -->
+    <mci-alert id="alert" value="A simple warning alert—check it out!" status="warning" width="300px" height="50px"
+        padding="10px" border-radius="30px"></mci-alert>
+    <!-- light -->
+    <mci-alert value="A simple light alert—check it out!" status="light" width="300px" height="50px" padding="10px"
+        text-color="black" border-radius="30px"></mci-alert>
+    <!--  -->
+    <mci-alert value="A simple Dark alert—check it out!" status="dark" width="300px" height="50px" padding="10px"
+        border-radius="30px"></mci-alert>
+
+
+
+    <h1>Tag-3 MCI Clock</h1>
+    <mci-clock value="My Clock" text-color="black" set-position="top-right" width="200px" border-radius="40px"
+        status="info" border="2px solid black" size="x-large"></mci-clock>
+
+    <h1>Tag-4 Mci Help Text</h1>
+    <table>
+        <tr>
+            <td><label for="username">Username:</label></td>
+            <td>
+                <input type="text" id="username" name="username">
+                <mci-help-text for="username" value="Username must be at least 8 characters" font-size="15px"
+                    text-color="gray"></mci-help-text>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td>
+                <input type="password" id="password" name="password">
+                <mci-help-text for="password" value="Password must contain symbols and letters" font-size="15px"
+                    text-color="gray"></mci-help-text>
+            </td>
+        </tr>
+    </table>
+   
+
+
+    <script src="./script.js" type="module"></script>
+
+    <script>
+        // setTimeout(() => {
+        //     document.querySelector("mci-notification-toast").hide();
+        // }, 500);
+
+        // const toastElement = document.getElementById("myToast");
+        // const toastElement1 = document.getElementById("toast");
+
+        // setTimeout(() => {
+        //     toastElement.hide();
+        //     toastElement1.hide();
+        // }, 2000);
+
+        // setTimeout(() => {
+        //     toastElement.show();
+        //     toastElement1.show();
+        // }, 4000);
+
+
+    </script>
+</body>
+
+</html>
