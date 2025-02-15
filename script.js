@@ -1,4 +1,4 @@
-import './src/tooltip.js'
+import './src/mci-tooltip.js'
 import './src/mci-toggle.js'
 import './src/mci-alert.js'
 import './src/mci-badge.js'
